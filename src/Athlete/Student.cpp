@@ -1,7 +1,8 @@
 // add namespace stuff
 #include <string>
+#include <list>
 
-class Student {
+class Student: public Athlete {
 	private:
 		string name;
 

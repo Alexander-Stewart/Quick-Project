@@ -1,12 +1,15 @@
 #include <list>
 #include <string>
 
+/*
+* a class to have users add new stats to be added to a new student.
+*/
 class Stats {
 private:
 	list<string> stats; // a list that is for stats. of type string.
 
 public:
-	
+
 	/*
 	* a function to add a stat the the list of stats
 	*/
@@ -31,6 +34,5 @@ public:
 	list<string> getStats() {
 		// return the list of stats
 	}
-
 
 }

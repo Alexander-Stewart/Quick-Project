@@ -1,11 +1,9 @@
 #include <string>
 #include <list>
 
-class Camper{
+class Camper: public Athlete {
 	private:
 		string name;
-
-
 
 	public: 
 
